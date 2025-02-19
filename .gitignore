@@ -1,0 +1,23 @@
+## server dependencies / generated files
+.DS_Store
+node_modules/
+/.idea/
+.env
+yarn.lock
+yarn-error.log
+package-lock.json
+temp/
+build/
+.vscode
+apps/reportapp/.env
+apps/reportapp/dist/
+apps/reportapp/node_modules/
+apps/reportapp/package-lock.json
+apps/reportapp/yarn.lock
+apps/reportapp/yarn-error.log
+apps/api-gateway/.env
+apps/api-gateway/dist/
+apps/api-gateway/node_modules/
+apps/api-gateway/package-lock.json
+apps/api-gateway/yarn.lock
+apps/api-gateway/yarn-error.log

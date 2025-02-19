@@ -1,0 +1,43 @@
+{
+  "projects": {
+    "cache": {
+      "type": "library",
+      "root": "libs/cache",
+      "entryFile": "index",
+      "sourceRoot": "libs/cache/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/cache/tsconfig.lib.json"
+      }
+    },
+    "clickhouse": {
+      "type": "library",
+      "root": "libs/clickhouse",
+      "entryFile": "index",
+      "sourceRoot": "libs/clickhouse/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/clickhouse/tsconfig.lib.json"
+      }
+    },
+    "common-utils": {
+      "type": "library",
+      "root": "libs/common-utils",
+      "entryFile": "index",
+      "sourceRoot": "libs/common-utils/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/common-utils/tsconfig.lib.json"
+      }
+    },
+    "mongodb": {
+      "type": "library",
+      "root": "libs/mongodb",
+      "entryFile": "index",
+      "sourceRoot": "libs/mongodb/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/mongodb/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
