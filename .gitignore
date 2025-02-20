@@ -21,3 +21,4 @@ apps/api-gateway/node_modules/
 apps/api-gateway/package-lock.json
 apps/api-gateway/yarn.lock
 apps/api-gateway/yarn-error.log
+libs/dist

@@ -16,6 +16,10 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitAny": false,
     "strictBindCallApply": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@libs/mongodb": ["../../libs/db/mongodb/src"],
+      "@libs/clickhouse": ["../../libs/db/clickhouse/src"]
+    }
   }
 }

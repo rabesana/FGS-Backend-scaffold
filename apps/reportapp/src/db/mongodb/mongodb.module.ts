@@ -6,7 +6,7 @@ import mongoose from 'mongoose';
 //@Module({})
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/nest'),
+    MongooseModule.forRoot('mongodb://localhost:27017/pms'),
   ],
 })
 export class MongodbModule implements OnModuleInit  {

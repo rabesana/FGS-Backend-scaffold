@@ -3,6 +3,7 @@ import mongoose from 'mongoose';
 
 @Injectable()
 export class MongodbService {
+  
     private readonly connection = mongoose.connection;
 
     async find(collectionName: string, query: any): Promise<any[]> {
@@ -23,5 +24,5 @@ export class MongodbService {
     async deleteOne(collectionName: string, filter: any): Promise<any> {
       const collection = this.connection.collection(collectionName);
       return collection.deleteOne(filter);
-    }    
+    }
 }

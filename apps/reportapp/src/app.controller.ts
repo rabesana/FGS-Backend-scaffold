@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
-//import { MongodbService } from '../../../libs/db/mongodb/src/mongodb.service';
+//import { MongodbService } from '@libs/mongodb';
 
 @Controller()
 export class AppController {
