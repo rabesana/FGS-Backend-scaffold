@@ -1,6 +1,7 @@
 import { Module, OnModuleInit } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { Logger } from '@nestjs/common';
+import { MongodbService } from './mongodb.service';
 import mongoose from 'mongoose';
 
 //@Module({})
@@ -8,6 +9,7 @@ import mongoose from 'mongoose';
   imports: [
     MongooseModule.forRoot('mongodb://localhost:27017/pms'),
   ],
+  providers: [MongodbService],
 })
 export class MongodbModule implements OnModuleInit  {
     private readonly logger = new Logger(MongodbModule.name);
